@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>project3</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>PROJECT1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Playfair+Display+SC&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Playfair+Display+SC&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body onload="startTime()">
+<!-- .......................top-header.................. -->
+<header class="main-header ">
+<div class="top-header">
+<div class="container">
+    <div class="row">
+        <div class="col-md-7">
+            <div class="header-contact-info">
+                <ul>
+                    <li>
+                        
+                            <span class="icon">
+                               <i class="fa fa-phone" aria-hidden="true"></i>
+                            </span>
+                            <div class="details-content">
+                                <span class="content-title">PHONE NUMBER :</span>
+                                <h6>+01 (977) 2599 12</h6>
+                            </div>
+                        
+                    </li>
+                    <li>
+                        
+                            <span class="icon">
+                                <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                            </span>
+                            <div class="details-content">
+                                <span class="content-title">EMAIL ADDRESS :</span>
+                                <h6>company@domain.com</h6>
+                            </div>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-5 ">
+            <div class="header-social-links">
+                       <i class="fa fa-facebook" aria-hidden="true"></i>
+                       <i class="fa fa-twitter" aria-hidden="true"></i>
+                       <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                       <i class="fa fa-instagram" aria-hidden="true"></i>
+                       <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                       <i class="fa fa-search" aria-hidden="true"></i>   
+         </div>
+     </div>
+    </div>
+</div>
+</div>
+
+<div class="bottom-header" id="Seconds-header">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3">
+            <img class="title-img" src="img/eventum4.png " >
+        </div>
+
+        <div class="col-lg-9 main-navigation">
+         <div class="navbar" id="navbar">
+<a href="index.html" class="btn99 active" >Home</a>
+<a href="about.html" class="btn99" >About Us </a>
+<div class="dropdown" >
+<a class="dropbtn btn99">pages 
+<i class="fa fa-caret-down" aria-hidden="true"></i>
+</a>
+<div class="dropdown-content   scroll-bar">
+<a href="event-schedule.html">Event Schedule </a>
+<a href="event-detail.html">Event Detail</a>
+<a href="speaker-list.html">Speaker List</a>
+<a href="speaker-detail.html">Speaker Detail</a>
+<a href="sponsers.html">Sponsers</a>
+<a href="pricing.html">Pricing</a>
+<a href="gallery.html">Gallery</a>
+<a href="faq.html">FAQ</a>
+   <a href="testimonial.html">Testimonial</a>
+     <a href="search.html">Search Result</a>
+      <a href="comming-soon.html">Coming Soon</a>
+       <a href="404page.html">404 Page</a>
+       <a href="single-page.html">Single Page</a>
+        <a href="reservation.html">Reservation</a>
+    </div>
+</div>
+
+<div class="dropdown">                 
+<a class="dropbtn btn99" >blog 
+<i class="fa fa-caret-down" aria-hidden="true"></i>
+</a>
+<div class="dropdown-content">
+<a href="blog-archive.html">Archive List</a>
+<a href="single-blog.html">single Archive</a>
+</div>
+</div>
+
+
+<div class="dropdown">
+<a class="dropbtn btn99" >Shop
+<i class="fa fa-caret-down" aria-hidden="true"></i>
+</a>
+<div class="dropdown-content ">
+<a href="product-archive.html">Product list</a>
+      <a href="product-detail.html">Single Product</a>
+      <a href="product-cart.html">Shop Cart</a>
+        <a href="product-checkout.html">Shop Checkout</a>
+             <a href="account-page.html">Log In</a>
+
+
+</div>
+</div>
+<a href="contact.html" class="btn99">Contact US </a> 
+</div>
+<div class="header-btn">
+            <a href="contact.html" class="button-round-primary">BUY TICKET</a>
+            </div>
+        </div>
+</div>
+</div>
+</div>
+</header>
+
+
+<!-- /*.......................top-header-end..................
+*/ -->
+
+
+<!-- home - section html start -->
+
+
+<section class="home-section ">
+<div class="overlay"></div>
+<div class="container">
+    <div class="row">
+            <div class="col-lg-6">
+                <figure class="home-image">
+                    <div class="home-pattern-overlay overlay-circle-img"></div>
+                  <img src="img/eventum-img38.png" alt="">
+                </figure>
+            </div>
+             <div class="col-lg-6">
+                <div class="home-content-section">
+                    <h3 >ANNUAL BUSINESS</h3>
+                    <span >CONFERENCE</span>
+                    <h1 >EVENT 2022</h1>
+                    <div class="home-divider"></div>
+                    <p >
+                        Animi ab libero! Blanditiis, luctus morbi eget esse, ridiculus. Quos laborum sunt facere primis magni cumque.
+                    </p>
+                    <div class="home-button">
+                        <a href="reservation.html" class="button-round-primary">BOOK RESERVATION</a>
+                        <a href="event-schedule.html" class="button-white-transparent">VIEW SCHEDULE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bottom-shape">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+        <path class="elementor-shape-fill" d="M615.2,96.7C240.2,97.8,0,18.9,0,0v100h1000V0C1000,19.2,989.8,96,615.2,96.7z"></path>
+    </svg>
+</div>
+</section>
+
+<!-- home time counter section -->
+
+<div class="home-time-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 left ">
+                    <div class="home-time-details">
+                        <div class="time-counter" data-date="2023-12-24 23:58:58">
+                            <div class="counter-time">	
+                               <p id="days"></p>
+                                <p class="label-text">Days</p>
+                            </div>
+                            <div class="counter-time">
+                              <p id="hours"></p>
+                                <p class="label-text">Hours</p>
+                            </div>
+                            <div class="counter-time">
+                              <p id="minuts"></p>
+                                <p class="label-text">Minutes</p>
+                            </div>
+                            <div class="counter-time">
+                            <p id="Seconds"></p>
+                                <p class="label-text">Seconds</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- home time counter section---end -->
+
+<!--  about-section -->
+
+<section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-gallary-left">
+                    <figure class=" figure-round-border">
+                        <img src="img/eventum-img33.jpg" alt="">
+                    </figure>
+                    <figure class=" figure-round-border" style="padding-top: 8px">
+                        <img src="img/eventum-img35.jpg" alt="">
+                    </figure>
+                    <figure class=" figure-round-border" style="padding-top: 8px">
+                        <img src="img/eventum-img34.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="about-section-right">
+                    <div class="about-right-content">
+                        <figure class="about-right-img  figure-round-border">
+                            <img src="img/eventum-img36.jpg" alt="">
+                        </figure>
+                        <div class="right-section-title">
+                            <span >INTRODUCTION</span>
+                            <h3 >
+                                KNOW MORE ABOUT OUR GRAND EVENT
+                            </h3>
+                            <p >
+                                Consequat sociosqu sem officiis aute ridiculus repellat in aliquip at, metus sociosqu veritatis cubilia ac soluta? Faucibus ipsam, incidunt cras.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-bottom-detail">
+                        <figure class=" figure-round-border">
+                            <img src="img/eventum-img37.jpg" alt="">
+                        </figure>
+                        <div class="about-detail-bottom">
+                            <div class="about-list">
+                                <div class="about-text">
+                                    
+                                       <i class="fa fa-check-circle-o" aria-hidden="true" id="icon"></i>
+                                        <p>
+                                            Lusto tenetur temporibus repellendus aspernatur, blandit ullam cupidatat quisquam lacinia.
+                                        </p>
+                                    </div>
+                         <div class="about-text">
+                                    <i class="fa fa-check-circle-o" aria-hidden="true" id="icon"></i>
+                                        <p>
+                                            Minima mattis laudantium nobis odit explicabo sapien nunc. Reprehenderit molestiae.
+                                        </p>
+                                    
+                                </div>
+                            </div>
+                            <div class="author-content">
+                                <figure class="auhtor-signature">
+                                    <img src="img/bloggable-img14.png" alt="">
+                                </figure>
+                                <div class="author-detail">
+                                    <h6 >MD WILLIAM HOUSTON</h6>
+                                    <span>Event Organiser</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-place">
+                <div class="about-place-content">
+                    <div class="place-icon">
+                        <a href="event-detail.html">
+                           <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                    <div class="place-detail">
+                        <h5 class="place-title">WHERE IS THE EVENT :</h5>
+                        <span style="font-size: 16px; color: #696A87; font-family: Mulish, sans-serif;">
+                            221B Baker Street, P.O Box 353 Park Road, San Francisco USA - 215431
+                        </span>
+                    </div>
+                </div>
+                <div class="place-content place-time">
+                     <div class="about-place-content">
+                    <div class="place-icon">
+                        <a href="event-detail.html">
+                            <i class="fa fa-calendar" aria-hidden="true" style=" background-color: #223645;"></i>
+                        </a>
+                    </div>
+                
+                    <div class="place-detail">
+                        <h5 class="place-title" >WHEN IS THE EVENT :</h5>
+                        <span style="font-size: 16px; color: #696A87; font-family: Mulish, sans-serif;">
+                            ( Sunday to Wednesday ) 20 January 2022 to 24 January 2022.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- home progress section html start -->
+
+<div class="progress-section">
+        <div class="container">
+             <div class=" row">
+                    <div class="col-lg-3 ">
+                         <div class="counter-title">
+                            <h2 class="num" data-val="220">220+</h2>
+                           <p>TOTAL JOURNALIST</p>
+                    </div>
+                </div>
+                    <div class="col-lg-3 ">
+                        <div class="counter-title">
+                            <h2 class="num" data-val="35" >35+</h2>
+                             <p> EVENT SPEAKERS </p>
+                       </div>
+                    </div>
+                    <div class="col-lg-3 ">
+                         <div class="counter-title">
+                            <h2 class="num" data-val="42">42+</h2>
+                             <p>EVENT SESSIONS</p>
+                    </div>
+                    </div>
+                    <div class="col-lg-3 ">
+                         <div class="counter-title">
+                            <h2 class="num" data-val="35">35+</h2>
+                        
+                        <p> SPONSERS & PARTNERS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- home event section html start -->
+
+
+<section class="event-section">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="event-section-title">
+                    <span >JOIN OUR EVENT</span>
+                    <h3 >
+                        WHY ATTEND OUR EVENT?
+                    </h3>
+                    <p >
+                        Quam amet tristique adipisicing incididunt arcu, excepturi molestie turpis deserunt ducimus <br> malesuada minus mauris veniam.
+                    </p>
+                </div>
+                <div class="type-of-event">
+                    <div class="event-type">
+                        <div class="event-content">
+                     <i class="fa fa-comments-o" aria-hidden="true"></i>
+                                <h2 >  01. </h2>
+                        </div>
+                        <div class="event-detail">
+                            <h5 >  IN PERSON NETWORKING</h5>
+                 <p>Nemo cubilia non, exercitationem ridiculus modi faucibus nullam animi suspendie in porttitor.</p>
+                        </div>
+                    </div>
+                    <div class="event-type">
+                        <div class="event-content">
+                             <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                                <h2 > 02.</h2>
+                        </div>
+                        <div class="event-detail">
+                            <h5 > BOOST CREATIVITY</h5>
+                    <p>Nemo cubilia non, exercitationem ridiculus modi faucibus nullam animi suspendie in porttitor.</p>
+                        </div>
+                    </div>
+                    <div class="event-type">
+                        <div class="event-content">
+                           <i class="fa fa-coffee" aria-hidden="true"></i>
+                        <h2 >   03</h2>
+                        </div>
+                        <div class="event-detail">
+                            <h5 >  AFTER PARTY EVENT</h5>
+                    <p>Nemo cubilia non, exercitationem ridiculus modi faucibus nullam animi suspendie in porttitor.</p>
+                        </div>
+                    </div>
+                    <div class="event-type">
+                        <div class="event-content">
+                            <i class="fa fa-superpowers" aria-hidden="true"></i>
+                               <h2 >04.</h2>
+                        </div>
+                        <div class="event-detail">
+                            <h5 >SPARK CREATIVITY</h5>
+                        <p>Nemo cubilia non, exercitationem ridiculus modi faucibus nullam animi suspendie in porttitor.</p>
+                        </div>
+                    </div>
+                    <div class="event-type">
+                        <div class="event-content">
+                            <i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+                               <h2 > 05.</h2>
+                        </div>
+                        <div class="event-detail">
+                            <h5 >TOP SPEAKERS</h5>
+                        <p>Nemo cubilia non, exercitationem ridiculus modi faucibus nullam animi suspendie in porttitor.</p>
+                        </div>
+                    </div>
+                    <div class="event-type">
+                        <div class="event-content">
+                       <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                         <h2> 06.</h2>
+                        </div>
+                        <div class="event-detail">
+                            <h5 >POTENTIAL CLIENTS</h5>
+                        <p>Nemo cubilia non, exercitationem ridiculus modi faucibus nullam animi suspendie in porttitor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- speaker-section html start -->
+        <section class="speaker-section">
+            <div class="container">
+                <div class="speaker-section-title">
+                    <span class="section-sub-title " >EVENT SPEAKERS</span>
+                    <h3 class="section-title">OUR EVENT SPEAKERS</h3>
+                    <p class="section-paragraph" style=" color: #696A87;">
+                    Quam amet tristique adipisicing incididunt arcu, excepturi molestie turpis deserunt ducimus <br> malesuada minus mauris veniam.
+                    </p>
+                </div>
+                <div class="speaker-member">
+                    <div class="team-member">
+                                
+                                    <img src="img/eventum-img028.jpg" alt="">
+                                
+                                <div class="team-member-info">
+                                    <div class="team-content">
+                                        <h5 >WILLIAM HOBB</h5>
+                                        <span >Chief Executive Officer</span>
+                                    </div>
+                                    <div class="social-icon">
+                                             <i class="fab fa-facebook-f"></i>
+                                              <i class="fab fa-twitter"></i> 
+                                              <i class="fab fa-youtube"></i>  
+                                              <i class="fab fa-instagram"></i> 
+                                     </div>
+                                </div>
+                            
+                        </div>
+                        <div class="team-member">
+                                
+                                    <img src="img/eventum-img025.jpg" alt="">
+                                
+                                <div class="team-member-info">
+                                    <div class="team-content">
+                                        <h5 > ALISON WHITE</h5>
+                                        <span>Managing Director</span>
+                                    </div>
+                                    <div class="social-icon">
+                                         <i class="fab fa-facebook-f"></i>
+                                              <i class="fab fa-twitter"></i> 
+                                              <i class="fab fa-youtube"></i>  
+                                              <i class="fab fa-instagram"> </i>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        
+                            <div class="team-member">
+                                
+                                    <img src="img/eventum-img031.jpg" alt="">
+                                
+                                <div class="team-member-info">
+                                    <div class="team-content">
+                                        <h5 > GEORGE SMITH</a></h5>
+                                        <span >Marketing Officer</span>
+                                    </div>
+                                    <div class="social-icon">
+                                        <i class="fab fa-facebook-f"></i>
+                                              <i class="fab fa-twitter"></i> 
+                                              <i class="fab fa-youtube"></i>  
+                                              <i class="fab fa-instagram"></i> 
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        
+                            <div class="team-member">
+                                
+                                    <img src="img/eventum-img026.jpg" alt="">
+                                
+                                <div class="team-member-info">
+                                    <div class="team-content">
+                                        <h5 > JENNY WATT</h5></h5>
+                                        <span >Executive Officer</span>
+                                    </div>
+                                    <div class="social-icon">
+                                       <i class="fab fa-facebook-f"></i>
+                                              <i class="fab fa-twitter"></i> 
+                                              <i class="fab fa-youtube"></i>  
+                                              <i class="fab fa-instagram"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        
+                            <div class="team-member">
+                                
+                                    <img src="img/eventum-img032.jpg" alt="">
+                                
+                                <div class="team-member-info">
+                                    <div class="team-content">
+                                        <h5 > MANNY HERDS</h5></h5>
+                                        <span >Business Supervisor</span>
+                                    </div>
+                                    <div class="social-icon">
+                                       <i class="fab fa-facebook-f"></i>
+                                              <i class="fab fa-twitter"></i> 
+                                              <i class="fab fa-youtube"></i>  
+                                              <i class="fab fa-instagram"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        
+                            <div class="team-member">
+                                
+                                    <img src="img/eventum-img030.jpg" alt="">
+                                
+                                <div class="team-member-info">
+                                    <div class="team-content">
+                                        <h5 > GARY WILSON</h5></h5>
+                                        <span >Market Supervisor</span>
+                                    </div>
+                                    <div class="social-icon">
+                                       <i class="fab fa-facebook-f"></i>
+                                              <i class="fab fa-twitter"></i> 
+                                              <i class="fab fa-youtube"></i>  
+                                              <i class="fab fa-instagram"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        
+                            <div class="team-member">
+                                
+                                    <img src="img/eventum-img027.jpg" alt="">
+                                
+                                <div class="team-member-info">
+                                    <div class="team-content">
+                                        <h5 > SALLY WART</h5></h5>
+                                        <span >Event Supervisor</span>
+                                    </div>
+                                    <div class="social-icon">
+                                       <i class="fab fa-facebook-f"></i>
+                                              <i class="fab fa-twitter"></i> 
+                                              <i class="fab fa-youtube"></i>  
+                                              <i class="fab fa-instagram"></i> 
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        
+                            <div class="team-member">
+                                 <img src="img/eventum-img029.jpg" alt="">
+                                
+                                <div class="team-member-info">
+                                    <div class="team-content">
+                                        <h5 > JIMMY SCOTT</h5></h5>
+                                        <span >Event Speaker</span>
+                                    </div>
+                                    <div class="social-icon">
+                                       <i class="fab fa-facebook-f"></i>
+                                              <i class="fab fa-twitter"></i> 
+                                              <i class="fab fa-youtube"></i>  
+                                              <i class="fab fa-instagram"> </i>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                <div class="event-speaker-btn">
+                    <a href="speaker-list.html" class="button-round-primary">VIEW ALL SPEAKERS</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- schedule section   -->
+
+
+        <section class="schedule-section">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-6">
+                        <div class="schedule-section-title">
+                            <span class="section-sub-title ">SCHEDULE DETAILS</span>
+                            <h3 class="section-title">
+                                INFORMATION OF EVENT SCHEDULE !
+                            </h3>
+                            <p class="section-paragraph" style=" color: #696A87;">
+                                Quam amet tristique adipisicing incididunt arcu, excepturi molestie turpis deserunt ducimus malesuada minus mauris veniam.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="circle-box">
+                            <div class="circle-box-info">
+                                <div class="circle-box-txt">
+                                    <h5 class="black">23RD FEB</h5>
+                                    <h6 class="red">SUNDAY</h6>
+                                </div>
+                            </div>
+                            <div class="circle-box-info">
+                                <div class="circle-box-txt">
+                                    <h5>24TH FEB</h5>
+                                    <h6>MONDAY</h6>
+                                </div>
+                            </div>
+                            <div class="circle-box-info">
+                                <div class="circle-box-txt">
+                                    <h5>25TH FEB</h5>
+                                    <h6>TUESDAY</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-content">
+                    <div class="schedule-detail">
+                        <div class="work-detail">
+                            <span >From 9:30 to 11:30</span>
+                            <h6 >BUSINESS LECTURE</h6>
+                        </div>
+                        <div class="schedule-description">
+                            <h5 >BUSINESS MANAGEMENT INFO</h5>
+                            <p >
+                                Quam amet tristique adipisicing incididunt arcu, excepturi molestie turpis deserunt ducimus malesuada minus mauris veniam.
+                            </p>
+                            <span >
+                                LEARN MORE..
+                            </span>
+                        </div>
+                        <div class="lecture-image">
+                            <img src="img/eventum-img15.jpg" >
+                             <img src="img/eventum-img16.jpg" >
+                            
+                        </div>
+                    </div>
+                    <div class="schedule-detail">
+                        <div class="work-detail" style=" background-color: rgba(250, 3, 104, 0.7);">
+                            <span >From 12:00 to 01:30</span>
+                            <h6 >MARKET WORKSHOP</h6>
+                        </div>
+                        <div class="schedule-description">
+                            <h5 >DIGITAL MARKETING WORKSHOP</h5>
+                            <p >
+                                Quam amet tristique adipisicing incididunt arcu, excepturi molestie turpis deserunt ducimus malesuada minus mauris veniam.
+                            </p>
+                            <span >
+                                LEARN MORE..
+                            </span>
+                        </div>
+                        <div class="lecture-image">
+                          
+                                <img src="img/eventum-img11.jpg" alt="">
+                           
+                          
+                                <img src="img/eventum-img12.jpg" alt="">
+                           
+                        </div>
+                    </div>
+                    <div class="schedule-detail">
+                        <div class="work-detail">
+                            <span >From 3:00 to 04:00</span>
+                            <h6 >TEAM WORKSHOP</h6>
+                        </div>
+                        <div class="schedule-description">
+                            <h5 >CULTURE OF CREATIVITY</h5>
+                            <p >
+                                Quam amet tristique adipisicing incididunt arcu, excepturi molestie turpis deserunt ducimus malesuada minus mauris veniam.
+                            </p>
+                            <span>
+                                LEARN MORE..
+                            </span>
+                        </div>
+                        <div class="lecture-image">
+                          
+                                <img src="img/eventum-img14.jpg" alt="">
+                           
+                          
+                                <img src="img/eventum-img13.jpg" alt="">
+                           
+                        </div>
+                    </div>
+                    <div class="schedule-detail">
+                        <div class="work-detail" style=" background-color: rgba(250, 3, 104, 0.7);">
+                            <span >From 4:30 to 06:00</span>
+                            <h6 >MARKETING THEORY</h6>
+                        </div>
+                        <div class="schedule-description">
+                            <h5 >BEST MARKETING STRATEGIES</h5>
+                            <p >
+                                Quam amet tristique adipisicing incididunt arcu, excepturi molestie turpis deserunt ducimus malesuada minus mauris veniam.
+                            </p>
+                            <span >
+                                LEARN MORE..
+                            </span>
+                        </div>
+                        <div class="lecture-image">
+                          
+                                <img src="img/eventum-img11.jpg" alt="">
+                           
+                          
+                                <img src="img/eventum-img16.jpg" alt="">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="schedule-btn">
+                    <a href="" class="button-round-primary">VIEW MORE DETAILS</a>
+                </div>
+            </div>
+        </section>
+
+<!--  price section  -->
+
+<section class="price-section">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="price-section-title">
+                    <span class="section-sub-title">PRICING TABLE</span>
+                    <h3 class="section-title">
+                        GET YOUR TICKET !!
+                    </h3>
+                    <p class="section-paragraph">
+                        Quam amet tristique adipisicing incididunt arcu, excepturi molestie turpis deserunt ducimus <br> malesuada minus mauris veniam.
+                    </p>
+                </div>
+                     <div class="row ">
+                            <div class="col-lg-4">
+                                <div class="price-item">
+                                    <div class="price-detail">
+                                        <div class="price-head">
+                                            <span >EARLY BIRD</span>
+                                            <h2 >$25</h2>
+                                            <p>
+                                                Consectetur wisi voluptatem nostra, magnis occaecat dictum, aenean quo.
+                                            </p>
+                                            <span id="tax-info">All prices exclude 25% VAT!</span>
+                                        </div>
+                                       <div class="progress ">
+                                              <span   class="progress-bar  ">65%</span>
+                                                   </div>
+                                                
+                                                <span id="span">( 325 / 500 ) Available seat</span>
+                                            
+                                        
+                                        <div class="ticket-btn">
+                                            <a  href="event-schedule.html" class="button-white-transparent color">BUY TICKET</a>
+                                        </div>
+                                    </div>
+                                    <figure class="bottom-figure">
+                                        <img src="img/eventum-img41.png" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 ">
+                                <div class="price-item">
+                                    <div class="discount-offer">
+                                        <h6>EXCLUSIVE OFFER!</h6>
+                                    </div>
+                                    <div class="price-detail">
+                                        <div class="price-head">
+                                            <span >GOLD</span>
+                                            <h2 >$75</h2>
+                                            <p >
+                                                Consectetur wisi voluptatem nostra, magnis occaecat dictum, aenean quo.
+                                            </p>
+                                            <span id="tax-info">All prices exclude 25% VAT!</span>
+                                        </div>
+                                       <div class="progress ">
+                                              <span   class="progress-bar">85%</span>
+                                                   </div>
+                                               
+                                                <span id="span" >( 200 / 250 ) Available seat</span>
+                                            
+                                        
+                                        <div class="ticket-btn">
+                                            <a href="reservation.html" class="button-round-primary">BUY TICKET</a>
+                                        </div>
+                                    </div>
+                                    <figure class="bottom-figure">
+                                        <img src="img/eventum-img41.png" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="price-item">
+                                    <div class="price-detail">
+                                        <div class="price-head">
+                                            <span >PLATINUM</span>
+                                            <h2 >$44</h2>
+                                            <p >
+                                                Consectetur wisi voluptatem nostra, magnis occaecat dictum, aenean quo.
+                                            </p>
+                                            <span id="tax-info">All prices exclude 25% VAT!</span>
+                                        </div>
+                                       
+                                    <div class="progress ">
+                                              <span   class="progress-bar ">65%</span>
+                                                   </div>
+                                               
+                                                <span id="span" >( 352 / 400 ) Available seat</span>
+                                            
+                                        
+                                        <div class="ticket-btn">
+                                            <a  href="event-schedule.html" class="button-white-transparent color">BUY TICKET</a>
+                                        </div>
+                                    </div>
+                                    <figure class="bottom-figure">
+                                        <img src="img/eventum-img41.png" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+
+               
+                    
+                
+            </div>
+        </section>
+
+<!-- home gallery section html start -->
+
+<section class="home-gallery">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-lg-6">
+                            <div class="section-head">
+                                <span class="section-sub-title ">EVENT GALLERY</span>
+                                <h3 class="section-title">
+                                    COLLECTION OF IMAGES FROM LAST YEAR!!
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="section-head">
+                                <p class="section-paragraph">
+                                    Magnam corporis rem commodi dolore possimus varius justo litora ipsum suspendisse dignissimos. Odit, dolor, minima. Diam facilisis dignissimos metus, id delectus fuga doloribus qui, explicabo.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery">
+                        <div class="row " style="position: relative; height: 506.203px;">
+                            <div class="single-gallery  col-lg-3 " style="position: absolute; left: 0px; top: 0px;">
+                                <figure class="gallery-img">
+                                    <a href="img/eventum-img6.jpg" data-fancybox="gallery">
+                                        <img src="img/eventum-img17.jpg" alt="">
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="single-gallery  col-lg-3 " style="position: absolute; left: 291px; top: 0px;">
+                                <figure class="gallery-img">
+                                    <a href="img/eventum-img19.jpg" data-fancybox="gallery">
+                                        <img src="img/eventum-img019.jpg" alt="">
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="single-gallery  col-lg-3 " style="position: absolute; left: 582px; top: 0px;">
+                                <figure class="gallery-img">
+                                    <a href="img/eventum-img8.jpg" data-fancybox="gallery">
+                                        <img src="img/eventum-img23.jpg" alt="">
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="single-gallery  col-lg-3 " style="position: absolute; left: 873px; top: 0px;">
+                                <figure class="gallery-img">
+                                    <a href="img/eventum-img10.jpg" data-fancybox="gallery">
+                                        <img src="img/eventum-img20.jpg" alt="">
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="single-gallery  col-lg-3 " style="position: absolute; left: 0px; top: 205.078px;">
+                                <figure class="gallery-img">
+                                    <a href="img/eventum-img24.jpg" data-fancybox="gallery">
+                                        <img src="img/eventum-img24.jpg" alt="">
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="single-gallery  col-lg-3 " style="position: absolute; left: 291px; top: 253.094px;">
+                                <figure class="gallery-img">
+                                    <a href="img/eventum-img9.jpg" data-fancybox="gallery">
+                                        <img src="img/eventum-img21.jpg" alt="">
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="single-gallery  col-lg-3 " style="position: absolute; left: 873px; top: 253.094px;">
+                                <figure class="gallery-img">
+                                    <a href="img/eventum-img7.jpg" data-fancybox="gallery">
+                                        <img src="img/eventum-img22.jpg" alt="">
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="single-gallery  col-lg-3 " style="position: absolute; left: 582px; top: 301.125px;">
+                                <figure class="gallery-img">
+                                    <a href="img/eventum-img18.jpg" data-fancybox="gallery">
+                                        <img src="img/eventum-img18.jpg" alt="">
+                                    </a>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+<!-- testimonial section html start -->
+
+
+<section class="testimonial-section">
+                <div class="container">
+                    <div class="testimonial-section-title ">
+                        <span class="section-sub-title ">OUR TESTIMONIAL</span>
+                        <h3 class="section-title">
+                            WHAT OUR VISITOR'S SAY ?
+                        </h3>
+                        <p class="section-paragraph" style=" color: #696A87;">
+                            Quam amet tristique adipisicing incididunt arcu, excepturi molestie turpis deserunt ducimus <br> malesuada minus mauris veniam.
+                        </p>
+                    </div>
+                    
+                        <div class="testimonial-slider">
+                             
+
+                           
+                 <div class="mySlides">
+
+                             <figure class="client-img">
+                                    <img src="img/eventum-img14.jpg" alt="">
+                                </figure>
+                                <div class="client-detail">
+                                    <p class="client-txt">
+                                        "Habitant facilisis proident! Modi irure, modi blanditiis culpa! Soluta magnam maiores augue rutrum quia accumsan torquent venenatis. Facilis vel harum aspernatur orci, sit eleifend praesent, cupiditate, dignissimos sit proident, possimus proident distinctio wisi, odio quo."
+                                    </p>
+                                    <h5 class="client-name">
+                                        ALISON WHITE
+                                    </h5>
+                                    <span class="client-prof">
+                                        VISITOR
+                                    </span>
+                                </div>
+                           
+
+
+                            </div>
+                       <div class="mySlides">
+                               <figure class="client-img">
+                                    <img src="img/eventum-img16.jpg" alt="">
+                                </figure>
+                                <div class="client-detail">
+                                    <p class="client-txt">
+                                        "Habitant facilisis proident! Modi irure, modi blanditiis culpa! Soluta magnam maiores augue rutrum quia accumsan torquent venenatis. Facilis vel harum aspernatur orci, sit eleifend praesent, cupiditate, dignissimos sit proident, possimus proident distinctio wisi, odio quo."
+                                    </p>
+                                    <h5 class="client-name">
+                                        ALITA SUNDERLAND
+                                    </h5>
+                                    <span class="client-prof">
+                                        VISITOR
+                                    </span>
+                                </div>
+                            </div>
+                            
+                 <div class="mySlides">
+                                 <figure class="client-img">
+                                    <img src="img/eventum-img15.jpg" alt="">
+                                </figure>
+                                <div class="client-detail">
+                                    <p class="client-txt">
+                                        "Habitant facilisis proident! Modi irure, modi blanditiis culpa! Soluta magnam maiores augue rutrum quia accumsan torquent venenatis. Facilis vel harum aspernatur orci, sit eleifend praesent, cupiditate, dignissimos sit proident, possimus proident distinctio wisi, odio quo."
+                                    </p>
+                                    <h5 class="client-name">
+                                        GEORGE WILLINGTON
+                                    </h5>
+                                    <span class="client-prof">
+                                        VISITOR
+                                    </span>
+                                </div>
+                            </div>
+                            <a id="prev" onclick="plusSlides(-1)">❮</a>
+                              <a id="next" onclick="plusSlides(1)">❯</a>
+                        </div>
+                    </div>
+
+
+ </section>
+
+ <!-- home partner section html start -->
+
+
+ <section class="partner-section ">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="partner-section-title">
+                        <span class="section-sub-title ">PRICING TABLE</span>
+                        <h3 class="section-title">
+                            GET YOUR TICKET !!
+                        </h3>
+                        <p class="section-paragraph">
+                            Quam amet tristique adipisicing incididunt arcu, excepturi molestie turpis deserunt ducimus <br> malesuada minus mauris veniam.
+                        </p>
+                    </div>
+                    <div class="partner-box">
+                        <figure class="partner-logo">
+                            <img src="img/eventum-client01.png" alt="">
+                        </figure>
+                        <figure class="partner-logo">
+                            <img src="img/eventum-client02.png" alt="">
+                        </figure>
+                        <figure class="partner-logo">
+                            <img src="img/eventum-client03.png" alt="">
+                        </figure>
+                        <figure class="partner-logo">
+                            <img src="img/eventum-client04.png" alt="">
+                        </figure>
+                        <figure class="partner-logo grid-middle">
+                            <img src="img/eventum-client05.png" alt="">
+                        </figure>
+                        <figure class="partner-logo">
+                            <img src="img/eventum-client06.png" alt="">
+                        </figure>
+                        <figure class="partner-logo">
+                            <img src="img/eventum-client07.png" alt="">
+                        </figure>
+                        <figure class="partner-logo">
+                            <img src="img/eventum-client08.png" alt="">
+                        </figure>
+                        <figure class="partner-logo">
+                            <img src="img/eventum-client09.png" alt="">
+                        </figure>
+                        <figure class="partner-logo grid-middle">
+                            <img src="img/eventum-client010.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="sponser-btn">
+                        <a href=" contact.html" class="button-round-primary">BECOME A SPONSER</a>
+                    </div>
+                </div>
+            </section>
+
+
+<!-- .......................blog section ..........................
+
+ -->
+
+<section class="blog-section">
+                <div class="container">
+                    <div class="blog-section-title">
+                        <span class="section-sub-title ">RECENT BLOG</span>
+                        <h3 class="section-title">
+                            LATEST NEWS AND BLOG
+                        </h3>
+                        <p class="section-paragraph">
+                            Quam amet tristique adipisicing incididunt arcu, excepturi molestie turpis deserunt ducimus <br> malesuada minus mauris veniam.
+                        </p>
+                    </div>
+                    <div class="blog-box">
+                        <article class="post">
+                            <figure class="feature-image">
+                                <img src="img/eventum-img42.jpg" alt="">
+                            </figure>
+                            <div class="entry-content">
+                                <h5>
+                                    <a href="single-blog.html">MARKETING AND BUSINESS MANAGING LECTURE</a>
+                                </h5>
+                                <div class="entry-meta">
+                                    <span class="byline">
+                                        <a href="blog-archive.html">Demoteam | Aug 17, 2023 |No Comments </a>
+                                    </span>
+                                   
+                                </div>
+                                <span class="blog-link">
+                                    <a href="single-blog.html">READ MORE..</a>
+                                </span>
+                            </div>
+                        </article>
+                        <article class="post">
+                            <figure class="feature-image">
+                                <img src="img/eventum-img43.jpg" alt="">
+                            </figure>
+                            <div class="entry-content">
+                                <h5>
+                                    <a href="single-blog.html">ICC WALES REPORTS RECORD BREAKING SUMMER</a>
+                                </h5>
+                                <div class="entry-meta">
+                                    <span class="byline">
+                                            <a href="blog-archive.html">Demoteam | Aug 17, 2023 | No Comments </a>
+                                    </span>
+                                    
+                                </div>
+                                <span class="blog-link">
+                                    <a href="single-blog.html">READ MORE..</a>
+                                </span>
+                            </div>
+                        </article>
+                        <article class="post">
+                            <figure class="feature-image">
+                                <img src="img/eventum-img44.jpg" alt="">
+                            </figure>
+                            <div class="entry-content">
+                                <h5>
+                                    <a href="single-blog.html">EVENT TECHNOLOGY AWARD FOR PEOPLE CHOICE</a>
+                                </h5>
+                                <div class="entry-meta">
+                                    <span class="byline">
+                                             <a href="blog-archive.html">Demoteam | Aug 17, 2023 | No Comments </a>
+                                    </span>
+                                    
+                                </div>
+                                <span class="blog-link">
+                                    <a href="single-blog.html">READ MORE..</a>
+                                </span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+<!--  contct--section html start -->
+
+
+<section class="contact-section">
+                <div class="container">
+                    <div class="contact-inner">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <form class="contact-form row">
+                                    <p class="col-sm-6">
+                                        <input type="text" name="name" placeholder="Your Name..">
+                                    </p>
+                                    <p class="col-sm-6">
+                                        <input type="email" name="email" placeholder="Your Email..">
+                                    </p>
+                                    <p class="width-full">
+                                        <textarea rows="9" placeholder="Enter Message.."></textarea>
+                                    </p>
+                                    <p class="width-full">
+                                        <input type="submit" name="submit" value="SEND MESSAGE">
+                                    </p>
+                                </form>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="contact-detail">
+                                    <div class="contact-section-title">
+                                        <span class="section-sub-title ">GET IN TOUCH</span>
+                                        <h3 class="section-title">
+                                            CONTACT US FOR FURTHER INFORMATION
+                                        </h3>
+                                        <p class="section-paragraph">
+                                            Quam amet tristique adipisicing incididunt arcu, excepturi molestie turpis deserunt ducimus malesuada minus mauris veniam.
+                                        </p>
+                                    </div>
+                                    <div class="contact-location">
+                                        <div class="contact-location-item">
+                                            <figure class="contact-icon">
+                                               <i class="fa fa-building" aria-hidden="true"></i>
+                                            </figure>
+                                            <div class="contact-place-content">
+                                                <h5>EVENT VENUE :</h5>
+                                                <span>
+                                                    Hollywood Banquet Hall , Riverside Building Area
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="contact-location-item">
+                                            <figure class="contact-icon">
+                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            </figure>
+                                            <div class="contact-place-content">
+                                                <h5>LOCATION ADDRESS :</h5>
+                                                <span>
+                                                    5214 Sunset Blvd, Los Angeles CA 90027, USA
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-image-content">
+                        <figure class="contact-img">
+                            <img src="img/eventum-img4.jpg" alt="">
+                            <div class="facility-wrapper">
+                                <div class="facility-content">
+                                    <h5 class="facility-title">
+                                        Hollywood Banquet Hall
+                                    </h5>
+                                    <p class="facility-info">
+                                        Magni nesciunt doloribus venenatis esse consectetu.
+                                    </p>
+                                    <a href="contact.html" class="button-round-primary">GET DIRECTION</a>
+                                </div>
+                            </div>
+                        </figure>
+                        <figure class="contact-img">
+                            <img src="img/eventum-img5.jpg" alt="">
+                            <div class="facility-wrapper">
+                                <div class="facility-content">
+                                    <h5 class="facility-title">
+                                        Riverside Building Area
+                                    </h5>
+                                    <p class="facility-info">
+                                        Magni nesciunt doloribus venenatis esse consectetu.
+                                    </p>
+                                    <a href="contact.html" class="button-round-primary">GET DIRECTION</a>
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="map-section">
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7012.17710310111!2d77.05920413895502!3d28.506983402933592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d197a42c1ad4f%3A0x6e74def83d090b74!2sSector%2022%2C%20Gurugram%2C%20Haryana%20122022!5e0!3m2!1sen!2sin!4v1692512161974!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+<!-- ....................footer part........
+ -->
+
+<footer id="colophon" class="footer-section">
+            <div class="footer-overlay overlay"></div>
+            <div class="top-footer">
+                <div class="container">
+                    <div class="row ">
+                        <div class="col-lg-3 ">
+                            <div class="footer-title">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="img/eventum4.png" alt="logo"></a>
+                                </div>
+                                <div class="footer-text">
+                                    Cursus facilisi facilis omnis dis minima tenetur a deleniti penatibus necessitatibus. Incidunt laboriosam harum ipsum init unde.
+                                </div>
+                            </div>
+                            <div class="footer-social-links">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/" target="_blank">
+                                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.twitter.com/" target="_blank">
+                                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/" target="_blank">
+                                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/" target="_blank">
+                                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 ">
+                            <div class="footer-title">
+                                <h6 >Quick LInks</h6>
+                                <ul>
+                                    <li>
+                                        <a href="about.html">About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="event-detail.html">Event Details</a>
+                                    </li>
+                                    <li>
+                                        <a href="blog-archive.html">News &amp; Articles</a>
+                                    </li>
+                                    <li>
+                                        <a href="single-page.html">Credits</a>
+                                    </li>
+                                    <li>
+                                        <a href="legal-notice.html">Legal Notice</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 ">
+                             <div class="footer-title">
+                                <h6 >OTHER PAGES</h6>
+                                <ul>
+                                    <li>
+                                        <a href="faq.html">Help Center</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact.html">Contact Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="faq.html">FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href="legal-notice.html">Parent Community</a>
+                                    </li>
+                                    <li>
+                                        <a href="single-page.html">Organiser</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 ">
+                             <div class="footer-join">
+                                <h6 >JOIN OUR NEWSLETTER</h6>
+                                <p >
+                                    Subscribe our newsletter to get latest news and update from us.
+                                </p>
+                                <form class="footer-form">
+                                    <input type="email" name="email" placeholder="Your Email..">
+                                    <button class="button-round-primary" style="width: 100%;border: none;" ;>SUBSCRIBE NOW</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="bottom-footer">
+                    <div class="row ">
+                        <div class="col-lg-6 ">
+                            <div class="legal-list">
+                                <ul>
+                                    <li> <a href="legal-notice.html">PRIVACY POLICY</a></li>
+                                    <li> <a href="contact.html">SUPPORT</a></li>
+                                    <li> <a href="term-and-condition.html">TERMS &amp; CONDITION</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 ">
+                            <div class="copy-right">Copyright © 2023 Educator. All rights reserved.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button><a  href="#" class="totopbtn"  style="display: inline;">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+</button>
+
+        </footer>
+
+<!-- back to top -->
+<script src="JS/main.js"></script>
+
+</body>
+</html>
